@@ -1,0 +1,80 @@
+* {
+
+
+		padding: 0;
+		margin: 0;
+	}
+
+		#header {
+
+			width: 100%;
+			background: #345c68;
+			font-family: 'Montserrat', sans-serif;
+			/*font-family: 'Amatic SC';*/
+			color: white;
+			padding: 1%;
+			display: flex;
+
+
+		}
+		#header>h1 {
+
+			visibility: visible;
+
+		}
+		#header>h1:hover {
+
+			color: #FF5733;
+
+		}
+
+		nav {
+
+
+			 display: flex;
+			 font-family: 'Amatic SC';
+			 font-weight: bold;
+			 z-index: 2;
+		}
+		#divs_navegador {
+
+			    margin: 1%;
+
+		}
+		#divs_navegador:hover {
+
+				color: #FF5733;
+				cursor: pointer;
+				padding-bottom: 1%;
+				transition: border-bottom 1s ease 1s;
+				border-bottom: 1px solid #FF5733;
+				transform: translate(0px,2px);
+				
+
+		}
+		.container {
+
+
+			   width: 40%;
+    		   padding: 20% 30% 50% 30%;
+    		   background-image: url('spiration dark/spiration dark.png');
+
+
+		}
+		#heading {
+
+				font-size: 3em;
+				font-weight: bold;
+				font-family: 'Amatic SC';
+				color: #fff;
+
+		}
+		ul {
+
+			list-style-type: none;
+		}
+		a {
+
+			color: #ffffff;
+			text-decoration: none;
+		}
