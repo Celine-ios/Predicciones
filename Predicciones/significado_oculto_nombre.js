@@ -17,6 +17,8 @@ function lanzar_ajax() {
 }
 
 function cargar() {
+    /*Crear un evento para cada opción de la barra de navegación
+      y una funcion para cada una que carge la pagina correspondiente al test que eligió */
     var enlace_p = document.getElementsByTagName( 'p' )[ 0 ];
     enlace_p.addEventListener( 'click', lanzar_ajax, false );
 }
