@@ -16,6 +16,7 @@
 			display: flex;
 
 
+
 		}
 		#header>h1 {
 
@@ -35,7 +36,7 @@
 			 font-family: 'Amatic SC';
 			 font-weight: bold;
 			 z-index: 2;
-			background: #1d1d1d;
+			 background: #1d1d1d;
 		}
 		#divs_navegador {
 
@@ -84,4 +85,18 @@
 
 			color: #FF5733;
 
+		}
+		p[align="right"] {
+
+
+			   display: block;
+		}
+		@media screen and (max-width: 1000px) {
+			
+
+					p[align="right"] {
+
+
+						   display: none;
+					}
 		}
