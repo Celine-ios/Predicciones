@@ -91,6 +91,19 @@
 
 			   display: block;
 		}
+		.boton-estilo {
+    font-family: 'Montserrat', sans-serif;
+    background: #FF5733;
+    border: none;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 3%;
+}
+	.nombre {
+    border-radius: 2%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
 		@media screen and (max-width: 1000px) {
 			
 
