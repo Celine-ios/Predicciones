@@ -525,6 +525,126 @@ function ejecutar_zodiaco() {
     }
 
     }
+
+
+    function ejecutar_color() {
+
+            var primera_letra_entrada_nombre = document.getElementById( 'nombre' ).value[0];
+
+                    switch (primera_letra_entrada_nombre  ) {
+    case 'a':
+        var sig_nombre = "azul";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'b':
+        var sig_nombre = "amarillo";
+        alert( "Te queda bien el" + sig_nombre );
+        break;
+    case 'c':
+        var sig_nombre = "rojo";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'd':
+        var sig_nombre = "dorado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'e':
+        var sig_nombre = "gris";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'f':
+        var sig_nombre = "morado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'g':
+        var sig_nombre = "plateado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'h':
+        var sig_nombre = "marron";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'i':
+        var sig_nombre = "celeste";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'j':
+        var sig_nombre = "verde";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'k':
+        var sig_nombre = "naranja";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'l':
+        var sig_nombre = "mostaza";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'm':
+        var sig_nombre = "negro";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'n':
+        var sig_nombre = "blanco";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'ñ':
+        var sig_nombre = "gris";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'o':
+        var sig_nombre = "rojo";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'p':
+        var sig_nombre = "verde";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'q':
+        var sig_nombre = "rosa";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'r':
+        var sig_nombre = "naranjado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 's':
+        var sig_nombre = "amarillo";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 't':
+        var sig_nombre = "azul";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'u':
+        var sig_nombre = "granate";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'v':
+        var sig_nombre = "negro";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'w':
+        var sig_nombre = "marròn";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'x':
+        var sig_nombre = "plateado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'y':
+        var sig_nombre = "verde";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    case 'z':
+        var sig_nombre = "rosado";
+        alert( "Te queda bien el " + sig_nombre );
+        break;
+    default:
+        alert( "No introduciste un nombre válido" );
+        break;
+    }
+
 /*function cargar() {
     var boton_nombre = document.getElementById( 'boton1' );
     boton_nombre.addEventListener( 'click', ejecutar_nombre, false );
