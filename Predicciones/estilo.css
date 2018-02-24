@@ -1,115 +1,116 @@
-* {
+ img {
+
+       width: 100%;
+    }
+    table {
 
 
-		padding: 0;
-		margin: 0;
-	}
+          width: 100%;
 
-		#header {
+    }
+    td {
 
-			width: 100%;
-			background: #345c68;
-			font-family: 'Montserrat', sans-serif;
-			/*font-family: 'Amatic SC';*/
-			color: white;
-			padding: 1%;
-			display: flex;
+       background: #fff;
+       color: #045FB4;
+       padding: 2%;
 
 
-
-		}
-		#header>h1 {
-
-			visibility: visible;
-
-		}
-		#header>h1:hover {
-
-			color: #FF5733;
-
-		}
-
-		nav {
+    }
+    td:hover {
 
 
-			 display: flex;
-			 font-family: 'Amatic SC';
-			 font-weight: bold;
-			 z-index: 2;
-			 background: #1d1d1d;
-		}
-		#divs_navegador {
+        transition: height 1s ease-in 1s;
 
-			    margin: 1%;
+    }
+    #test1 {
 
-		}
-		#divs_navegador:hover {
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
 
-				color: #FF5733;
-				cursor: pointer;
-				padding-bottom: 1%;
-				transition: border-bottom 1s ease 1s;
-				border-bottom: 1px solid #FF5733;
-				transform: translate(0px,2px);
-				
+         
 
-		}
-		.container {
+    }
+    #test2 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+
+    #test3 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+
+    #test4 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+    #test5 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+
+    #test6 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+
+    #test7 {
+
+         
+         display: none;
+         height: 0%;
+         transition: height 1s ease 1s;
+         
+         
+    }
+
+    img {
+
+        border-radius: 5%;
+    }
+    h2 {
+
+        width: 40%;
+        cursor: pointer;
+
+    }
+
+    h2:hover {
 
 
-			   width: 40%;
-    		   padding: 20% 30% 50% 30%;
-    		   background-image: url('spiration dark/spiration dark.png');
+           color: #1BA1C7;
+    }
 
+    footer {
 
-		}
-		#heading {
-
-				font-size: 3em;
-				font-weight: bold;
-				font-family: 'Amatic SC';
-				color: #fff;
-
-		}
-		ul {
-
-			list-style-type: none;
-		}
-		a {
-
-			color: #ffffff;
-			text-decoration: none;
-		}
-		a:hover {
-
-
-			color: #FF5733;
-
-		}
-		p[align="right"] {
-
-
-			   display: block;
-		}
-		.boton-estilo {
-    font-family: 'Montserrat', sans-serif;
-    background: #FF5733;
-    border: none;
-    border-radius: 5%;
-    padding: 1%;
-    margin-left: 3%;
-}
-	.nombre {
-    border-radius: 2%;
-    margin-top: 10%;
-    margin-left: 5%;
-}
-		@media screen and (max-width: 1000px) {
-			
-
-					p[align="right"] {
-
-
-						   display: none;
-					}
-		}
+         padding: 1%;
+    }
+    

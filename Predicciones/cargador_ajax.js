@@ -123,6 +123,55 @@ $(document).ready(function() {
                  $('.hero-body').load('ajax_test_color.html');
          });
 
+
+            //LINK SEXTO TEST
+
+          $('.td-test6').mouseover(function() {
+
+                 $('#test6').css('display','block');
+                 $('#test6').css('height','80%');
+
+                
+         });
+
+         $('.td-test6').mouseout(function() {
+
+
+                 $('#test6').css('display','none');
+                 $('#test6').css('height','0%');
+
+         });
+
+         $('#link-test6').click(function() {
+
+
+                 $('.hero-body').load('ajax_nombre_significado.html');
+         });
+
+                 // LINK SÉPTIMO TEST
+
+          $('.td-test7').mouseover(function() {
+
+                 $('#test7').css('display','block');
+                 $('#test7').css('height','80%');
+
+                
+         });
+
+         $('.td-test7').mouseout(function() {
+
+
+                 $('#test7').css('display','none');
+                 $('#test7').css('height','0%');
+
+         });
+
+         $('#link-test7').click(function() {
+
+
+                 $('.hero-body').load('ajax_test_muerte.html');
+         });
+
          
 
 });

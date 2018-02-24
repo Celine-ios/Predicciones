@@ -644,6 +644,129 @@ function ejecutar_zodiaco() {
         alert( "No introduciste un nombre válido" );
         break;
     }
+}
+
+    function ejecutar_muerte() {
+
+            var primera_letra_entrada_nombre = document.getElementById( 'nombre' ).value[0];
+
+                    switch (primera_letra_entrada_nombre  ) {
+    case 'a':
+        var sig_nombre = "Una enfermedad extraña";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'b':
+        var sig_nombre = "Un accidente";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'c':
+        var sig_nombre = "Un ataque";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'd':
+        var sig_nombre = "Un choque vial";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'e':
+        var sig_nombre = "VIH";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'f':
+        var sig_nombre = "Algo";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'g':
+        var sig_nombre = "Un pedo";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'h':
+        var sig_nombre = "Soledad";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'i':
+        var sig_nombre = "Un ataque al corazón";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'j':
+        var sig_nombre = "Rabia";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'k':
+        var sig_nombre = "VIH";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'l':
+        var sig_nombre = "Un ACV";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'm':
+        var sig_nombre = "Gay";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'n':
+        var sig_nombre = "Un Susto";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'ñ':
+        var sig_nombre = "Un susto";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'o':
+        var sig_nombre = "Lujuria";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'p':
+        var sig_nombre = "No Morirás, eres Inmortal";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'q':
+        var sig_nombre = "Risa";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'r':
+        var sig_nombre = "Risa";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 's':
+        var sig_nombre = "Una Bala Perdida";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 't':
+        var sig_nombre = "Un Disparo en el trasero";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'u':
+        var sig_nombre = "Pena";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'v':
+        var sig_nombre = "Locura";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'w':
+        var sig_nombre = "Amor";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'x':
+        var sig_nombre = "Abrazos";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'y':
+        var sig_nombre = "Locura";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    case 'z':
+        var sig_nombre = "No Morirás, eres Inmortal";
+        alert( "Morirás de " + sig_nombre );
+        break;
+    default:
+        alert( "No introduciste un nombre válido" );
+        break;
+    }
+
+
+ }
+ 
 
 /*function cargar() {
     var boton_nombre = document.getElementById( 'boton1' );
